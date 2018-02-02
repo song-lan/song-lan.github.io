@@ -23,19 +23,24 @@ body {
 }
 
 
-/* slogan */
+/* Page design */
+.gradient {
+    background-image: radial-gradient(circle at 0% 0%,#30d0a0,transparent),radial-gradient(circle at 0% 100%,#4080f0,transparent),radial-gradient(circle at 80% 30%,#e00080,transparent),radial-gradient(circle at 100% 80%,#0040f0,transparent);
+}
+
+/* Slogan */
 #slogan {
     clear: both;
     padding: 32px;
     font-family: "Playball";
     color: #fff;
-    font-size: 2.5em;
+    font-size: 1.8em;
     text-align: center;
     text-shadow: 0 0 8px #000;
 }
 
 #slogan .author {
     font-family: Oswald;
-    font-size: .6em;
+    font-size: .5em;
     font-weight: lighter;
 }
