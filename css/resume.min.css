@@ -15,6 +15,7 @@ html {
 body {
   scroll-x: hidden;
   scroll-y: auto;
+  text-align: center;
 }
 
 * {
@@ -25,7 +26,11 @@ body {
 
 /* Page design */
 .gradient {
-    background-image: radial-gradient(circle at 0% 0%,#30d0a0,transparent),radial-gradient(circle at 0% 100%,#4080f0,transparent),radial-gradient(circle at 80% 30%,#e00080,transparent),radial-gradient(circle at 100% 80%,#0040f0,transparent);
+    background-color: #af5cc2;
+ 
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at left top,rgb(56, 175, 255) 0%,rgb(255, 63, 180) 63.2%,rgb(164, 28, 130) 100%);
+    __background-image: -ms-radial-gradient(left top, ellipse farthest-corner,rgb(56, 175, 255) 0%,rgb(255, 63, 180) 63.2%,rgb(164, 28, 130) 100%);
 }
 
 /* Slogan */
