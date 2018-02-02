@@ -19,5 +19,23 @@ body {
 
 * {
   border-collapse: collapse;
-  box-sizing: border-size;
+  box-sizing: border-box;
+}
+
+
+/* slogan */
+#slogan {
+    clear: both;
+    padding: 32px;
+    font-family: "Playball";
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 0 0 8px #000;
+}
+
+#slogan .author {
+    font-family: Oswald;
+    font-size: .6em;
+    font-weight: lighter;
 }
