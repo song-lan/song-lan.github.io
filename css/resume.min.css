@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+
+  font-famile: "Raleway", sans-serif;
+  font-size: 14px;
+  
+}
+
+body {
+  scroll-x: hidden;
+  scroll-y: auto;
+}
+
+* {
+  border-collapse: collapse;
+  box-sizing: border-size;
+}
